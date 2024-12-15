@@ -59,6 +59,6 @@ ul {
 .body {
     background-color: #e5e7eb;
     display: flex;
-    flex: 1;
-    max-height: 200px;
+    /*flex: 1;*/
+    max-height: 400px;
 }
