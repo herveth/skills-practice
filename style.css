@@ -28,6 +28,10 @@ body {
     color: #e5e7eb;
 }
 
+.navbar a:hover {
+    color: gold;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -43,13 +47,14 @@ ul {
     height: 100%;
 }
 
-
-
 .container {
     max-width: 1100px;
     margin: 0;
     padding: 0 auto;
+}
 
+.hero {
+    max-height: 500px;
 }
 
 .img {
