@@ -7,9 +7,16 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+nav, footer {
+    /*flex: 0 0 auto;*/
+}
+
 .navbar, .hero, .footer {
     background-color: #1f2937;
     color: white;
+    /*display: flex;
+    flex: 1;*/
 }
 
 .navbar {
@@ -53,9 +60,13 @@ ul {
     padding: 0 50px;
 }
 
+
+
 .hero {
-    min-height: 350px;
+    max-height: 350px;
     padding-left: 80px;
+    display: flex;
+    flex: 1;*/
 }
 
 .hero h1 {
@@ -90,9 +101,28 @@ ul {
     border-style: none;
 }
 
+.boxes {
+    display: flex;
+    flex: 1;
+}
+
 .body {
     background-color: #e5e7eb;
     display: flex;
-    /*flex: 1;*/
-    max-height: 400px;
+    flex:1;
+    max-height: 250px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:30px;
+    padding-right: 30px;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+    align-items:self-end;
 }
