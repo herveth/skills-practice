@@ -103,26 +103,35 @@ ul {
     display:flex;
     justify-content: center;
     color: #1f2937;
-    margin-bottom: 32px;
+    margin-bottom: px;
     margin-top: 30px;
     font-size: 36px;
     font-weight: 900;
   }
 
-  .container {
+  .boxes-wrapper {
     display: flex;
-    justify-content: center;
-    min-height: 150px;
-    gap: 52px;
-    padding-bottom: 40px;
-}
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    min-height: 230px;
+ }
 
 .box {
-    flex: 1;
-    max-width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 90px;
     border: 3px solid #3882f6;;
-    border-radius: 5px;
+    border-radius: 10px;
+   
+}
+
+.box-container {
+    overflow-wrap: break-word;
+}
+
+p {
+    width: 50%;
+    font-size: 12px;
 }
 
 .body {
