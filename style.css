@@ -87,7 +87,7 @@ ul {
     margin-right: 80px;
 }
 
-.hero .container {
+.hero, .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -112,12 +112,14 @@ ul {
   .container {
     display: flex;
     justify-content: center;
+    min-height: 150px;
     gap: 52px;
+    padding-bottom: 40px;
 }
 
 .box {
     flex: 1;
-    max-width: 150px;
+    max-width: 100px;
     height: 100px;
     border: 3px solid #3882f6;;
     border-radius: 5px;
