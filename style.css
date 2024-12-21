@@ -187,4 +187,12 @@ p {
     border: 2px solid ;
 }
 
+.footer {
+    height: 72px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+}
+
 
