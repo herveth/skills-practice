@@ -116,6 +116,7 @@ ul {
     justify-content: space-evenly;
     align-items: center;
     padding-left: 80px;
+    padding-bottom: 20px;
     max-height: 230px;
  }
 
@@ -128,7 +129,7 @@ ul {
 
 p {
     width: 50%;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .body {
@@ -139,12 +140,9 @@ p {
 }
 
 .quote {
-    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left:30px;
-    padding-right: 30px;
+    flex-direction: column;
+    padding: 70px;
 }
 
 .blockquote {
@@ -156,7 +154,7 @@ p {
     justify-content: end;
     align-self: flex-end;
     width: 80%;
-    font-weight: bold;
+    weight: 900;
 }
 
 .box-container2 {
