@@ -133,7 +133,7 @@ p {
     background-color: #e5e7eb;
     display: flex;
     flex:1;
-    max-height: 280px;
+    max-height: 250px;
 }
 
 .quote {
@@ -144,6 +144,8 @@ p {
     padding-left:30px;
     padding-right: 30px;
 }
+
+
 
 figcaption {
     display: flex;
