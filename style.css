@@ -149,12 +149,12 @@ p {
     color: #1f2937;
 }
 
-.figcaption {
+figcaption {
     display: flex;
     justify-content: end;
     align-self: flex-end;
     width: 80%;
-    weight: 900;
+   font-weight : 900;
 }
 
 .box-container2 {
