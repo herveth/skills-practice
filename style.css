@@ -160,7 +160,11 @@ figcaption {
     font-weight : 900;
 }
 
-.box-container2 {
+.cta-container {
+    
+}
+
+/*.box-container2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,7 +194,7 @@ figcaption {
     color: white;
     border-radius: 5px;
     border: 2px solid ;
-}
+}*/
 
 .footer {
     height: 72px;
