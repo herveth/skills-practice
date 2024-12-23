@@ -158,10 +158,9 @@ figcaption {
 }
 
 .box-container2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
+    background-color: #3882F6;
+  padding: 30px;
+  border-radius: 8px;
 }
 
 .box2 {
