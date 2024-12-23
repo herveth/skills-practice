@@ -57,7 +57,7 @@ ul {
 .container {
     max-width: 100%;
     margin: 0;
-    padding: 0 30px;
+    padding: 0 2px;
 }
 
 .hero {
@@ -70,15 +70,15 @@ ul {
     flex: 1;
 }
 
-.hero h1 {
-    font-size: 48px;
+.hero h3 {
+    font-size: 3ch8px;
     font-weight: 900;
     margin-bottom: 0px;
     margin-left: 80px;
 }
 
 .hero p {
-   font-size: 16px; 
+   font-size: 14px; 
    color: #e5e7eb;
    padding-right: 50px;
    margin-bottom: 0px;
@@ -88,8 +88,9 @@ ul {
 
 .img {
     display: flex;
-    flex-grow: 1;
+    size: 40%;
     max-width: 100%;
+
 }
 
 .movable-image {
@@ -98,10 +99,10 @@ ul {
 
 .hero .container {
     display: flex;
-    align-items: center;
+   /*align-items: center;
     justify-content: space-between;
-    max-width: 100%;
-    margin-right: 0px;
+    max-width: 100%;*/
+    margin-right: 80px;*/
 }
 
 .sign-up {
