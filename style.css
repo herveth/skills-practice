@@ -161,7 +161,29 @@ figcaption {
 }
 
 .cta-container {
-    
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.cta-content {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text {
+    color: white;
+    font-size: 12px;
+}
+
+.cta-text h6 {
+    margin: 0 0 10px 0;
+}
+
+h6 {
+    color: white;
+    font-size: 14px;
 }
 
 /*.box-container2 {
