@@ -65,6 +65,7 @@ ul {
 
 .hero {
     display: flex;
+    flex: 1;
     max-width: 100%;
     max-height: 350px;
     padding-left: 80px;
@@ -116,6 +117,7 @@ ul {
 
   .boxes-wrapper {
     display: flex;
+    flex: 1;
     justify-content: space-evenly;
     align-items: center;
     padding-left: 80px;
@@ -139,7 +141,7 @@ p {
     background-color: #e5e7eb;
     display: flex;
     flex:1;
-    max-height: 250px;
+    max-height: 350px;
 }
 
 .quote {
@@ -161,29 +163,59 @@ figcaption {
 }
 
 .cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
     padding: 30px;
-    border-radius: 8px;
+    max-width: 100%;
+    max-height:280px;
 }
 
 .cta-content {
     background-color: #3882f6;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
+    width: 70%;
 }
 
 .cta-text {
     color: white;
     font-size: 12px;
+    margin-left: 80px;
 }
 
 .cta-text h6 {
-    margin: 0 0 10px 0;
+    margin: 0;
+    padding: 0px;
 }
 
 h6 {
     color: white;
     font-size: 14px;
+    padding-bottom: 0px;
+}
+
+.cta-text p {
+    margin: 0;
+    padding-top: 0px;
+
+}
+
+.sign-up2 {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-right: 70px;
+    padding: 4px 20px;
+    margin-right: 80px;
+
+
 }
 
 /*.box-container2 {
