@@ -12,10 +12,6 @@ html, body {
     height: 100%;
 }
 
-nav, footer {
-    flex: 0 0 auto;
-}
-
 .navbar, .hero, .footer {
     background-color: #1f2937;
     color: white;
@@ -29,6 +25,7 @@ nav, footer {
     font-size: 24px;
     font-weight: bold;
     padding: 80px;
+    margin-left: 80px;
 }
 
 .navbar a {
@@ -45,7 +42,7 @@ nav, footer {
 ul {
     display: flex;
     list-style: none;
-    margin: 0;
+    margin: 80px;
     gap: 20px;
 }
 
@@ -77,6 +74,7 @@ ul {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 0px;
+    margin-left: 80px;
 }
 
 .hero p {
@@ -85,12 +83,17 @@ ul {
    padding-right: 50px;
    margin-bottom: 0px;
    margin-top: 0px;
+   margin-left: 80px;
 }
 
 .img {
     display: flex;
+    flex-grow: 1;
     max-width: 100%;
-    margin-right: 80px;
+}
+
+.movable-image {
+    position: initial;
 }
 
 .hero .container {
@@ -98,12 +101,14 @@ ul {
     align-items: center;
     justify-content: space-between;
     max-width: 100%;
+    margin-right: 0px;
 }
 
 .sign-up {
     background-color: #3882f6;
     border-radius: 5px;
     border-style: none;
+    margin-left: 80px;
 }
 
 .title {
