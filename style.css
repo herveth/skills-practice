@@ -154,13 +154,17 @@ figcaption {
     justify-content: end;
     align-self: flex-end;
     width: 80%;
-   font-weight : 900;
+    font-weight : 900;
 }
 
 .box-container2 {
-    background-color: #3882F6;
-  padding: 30px;
-  border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0;
+    padding: 30px;
+    border-radius: 8px;
+    height: 200px;;
 }
 
 .box2 {
