@@ -71,7 +71,7 @@ ul {
 }
 
 .hero h3 {
-    font-size: 3ch8px;
+    font-size: 38px;
     font-weight: 900;
     margin-bottom: 0px;
     margin-left: 80px;
@@ -86,23 +86,15 @@ ul {
    margin-left: 80px;
 }
 
-.img {
-    display: flex;
-    size: 40%;
+.hero img {
     max-width: 100%;
-
-}
-
-.movable-image {
-    position: initial;
+    max-height: 150px;
+    margin-top: 30px;
 }
 
 .hero .container {
     display: flex;
-   /*align-items: center;
-    justify-content: space-between;
-    max-width: 100%;*/
-    margin-right: 80px;*/
+    margin-right: 80px;
 }
 
 .sign-up {
