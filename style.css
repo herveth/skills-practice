@@ -212,41 +212,7 @@ h6 {
     padding-right: 70px;
     padding: 4px 20px;
     margin-right: 80px;
-
-
 }
-
-/*.box-container2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    padding: 30px;
-    border-radius: 8px;
-    height: 200px;;
-}
-
-.box2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 90px;
-    border: 3px solid #3882f6;;
-    border-radius: 10px;
-    background: #3882f6;
-} 
-
-.box2, text {
-    color: white;
-}
-
-.sign-up2 {
-    background-color: #3882f6;
-    color: white;
-    border-radius: 5px;
-    border: 2px solid ;
-}*/
 
 .footer {
     height: 72px;
