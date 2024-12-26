@@ -85,17 +85,27 @@ ul {
    margin-left: 80px;
 }
 
-.hero img {
-    display: flex;
+.img {
     min-width: 250px;
     max-height: 130px;
-    margin-top: 50px;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+.hero img {
+    display: flex;
+   min-width: 250px;
+    max-height: 130px;
+    margin-top: 50px; 
     margin-bottom: 50px;
 }
 
 .hero .container {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-right: 80px;
+    width: 1100vh;
 }
 
 .sign-up {
