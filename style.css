@@ -94,7 +94,7 @@ ul {
 
 .hero img {
     display: flex;
-   min-width: 250px;
+    min-width: 250px;
     max-height: 130px;
     margin-top: 50px; 
     margin-bottom: 50px;
